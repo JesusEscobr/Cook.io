@@ -1,5 +1,5 @@
 body {
-    background-color: #111518;
+    background-color: #090C0E;
     background-color: (-45deg, #111518, #000);
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    background-color:#111518;
+    background-color:#090C0E;
 }
 
 .form-control{
@@ -123,4 +123,24 @@ body {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-size: larger;
+}
+
+.btn{
+    background-color: #243139;
+    border:#111518;
+    border-radius: 8px;
+    width:20%;
+    height:40px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+.btn:hover{
+    scale: 1.05;
+    background-color: #2B3E4A;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
 }
