@@ -1,0 +1,123 @@
+body {
+    background-color: #111518;
+    background-color: (-45deg, #111518, #000);
+}
+
+.header{
+    background-image: url(./img/Header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color:#111518;
+}
+
+.form-control{
+    background-color: #4D6575;
+    border:#111518    
+}
+
+.form-control:focus{
+    background-color: #4C6F85;
+    
+}
+
+.nav-item{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color:#4C6F85;
+    font-size: larger;
+    
+}
+
+.nav-item:hover{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color:#4C6F85;
+    font-size: larger;
+    
+}
+
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color:#4C6F85;
+    font-size: xx-large;
+}
+
+.navbar-brand:hover{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color:#4C6F85;
+    font-size: xx-large;
+}
+
+.divider-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #4C6F85;
+    margin: 50px 0;
+}
+
+.divider-text::before,
+.divider-text::after {
+    content: "";
+    flex: 1;
+    border-bottom: 8px solid #2B3E4A;
+
+}
+
+.divider-text span {
+    padding: 0 10px;
+}
+
+.carousel-item {
+    height: 590px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;      
+    object-position: center; 
+}
+
+.custom-table {
+    background-color: transparent;
+    color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.custom-table th,
+.custom-table td {
+    padding: 15px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    background-color:#4D6575;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.form-label{
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+    width:100%;
+}
+
+.form-control-in{
+    background-color: #4D6575;
+    border:#111518;
+    border-radius: 8px;
+    width:30%;
+    height:50px;
+}
