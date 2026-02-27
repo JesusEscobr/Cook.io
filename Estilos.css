@@ -115,9 +115,12 @@ body {
 }
 
 .form-control-in{
-    background-color: #4D6575;
+    background-color: #243139;
     border:#111518;
     border-radius: 8px;
     width:30%;
-    height:50px;
+    height:40px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
 }
