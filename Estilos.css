@@ -17,7 +17,9 @@ body {
 
 .form-control{
     background-color: #4D6575;
-    border:#111518    
+    border:#111518;   
+    height:40px;
+    align-self: center;
 }
 
 .form-control:focus{
@@ -143,4 +145,41 @@ body {
     background-color: #2B3E4A;
     color: #fff;
     font-family: 'Raleway', sans-serif;
+}
+
+.btn-nav{
+    border-radius: 8px;
+    background-color: #2B3E4A;
+    height: 40px;
+    outline:transparent;
+    
+}
+
+.card{
+    background-color: #2B3E4A;
+    border-radius: 8px;
+    scale: 0.85;
+    padding: 4px;
+    height:min-content;
+    margin-left: 1px;
+    margin-left: 1px;
+}
+
+.card-text{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.card-title{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.card-date{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;   
+     
 }
